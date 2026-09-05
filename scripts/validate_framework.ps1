@@ -99,6 +99,10 @@ if ($LASTEXITCODE -ne 0) {
     throw "Hypothesis generator failed (exit $LASTEXITCODE)."
 }
 
+Write-Output '== Backend contracts (no engine execution) =='
+& $PythonExecutable (Join-Path $repoRoot 'scripts\test_backends.py')
+if ($LASTEXITCODE -ne 0) { throw "Backend contract tests failed (exit $LASTEXITCODE)." }
+
 Write-Output '== Eval smoke and regression gate =='
 & $PythonExecutable (Join-Path $repoRoot 'evals\run_evals.py')
 if ($LASTEXITCODE -ne 0) {

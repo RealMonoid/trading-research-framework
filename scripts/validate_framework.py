@@ -87,6 +87,7 @@ def main(argv: Sequence[str] | None = None) -> int:
     )
     run("Entry thresholds", [python, "scripts/test_entry_thresholds.py"])
     run("Hypothesis generator", [python, "scripts/test_generator.py"])
+    run("Backend contracts (no engine execution)", [python, "scripts/test_backends.py"])
     run("Eval protocol smoke", [python, "evals/run_evals.py"])
     run(
         "Eval unit and producer integration tests",

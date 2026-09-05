@@ -1,0 +1,14 @@
+{
+  "orders": [
+    {"bar_end": "2026-01-05T09:02:00Z", "quantity": 2},
+    {"bar_end": "2026-01-05T09:05:00Z", "quantity": -2}
+  ],
+  "fills": [
+    {"bar_end": "2026-01-05T09:03:00Z", "quantity": 2, "price": 110.5, "fee": 2},
+    {"bar_end": "2026-01-05T09:06:00Z", "quantity": -2, "price": 97.5, "fee": 2}
+  ],
+  "cash": 9970,
+  "equity": 9970,
+  "position": 0,
+  "open_orders": 0
+}

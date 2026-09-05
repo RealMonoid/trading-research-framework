@@ -30,7 +30,7 @@ change-control, risk, and specialist requirements also remain in force.
 | Rank | Work | Status and activation |
 |---|---|---|
 | 1 | Close test-validity and pipeline-control gaps | Implementation delivered for the supported v2 contracts and synthetic execution; the item stays open until Priority 4's live-agent bypass evaluation is completed. |
-| 2 | Establish one verified rule-based backtest backend | After applicable priority-1 corrections and data fitness; choose for the first case and verify synthetic orders, fills, timing, and costs. |
+| 2 | Establish one verified rule-based backtest backend | Backtrader and LEAN synthetic adapters implemented; case-specific data admission, strategy integration and execution acceptance remain open. |
 | 3 | Complete one real Research Case | Separate research authorization required; freeze the framework and research state, then record failures without repairing the framework mid-case. |
 | 4 | Measure actual agent behavior and bypass resistance | Use existing cases and failures from priority 3; no claim of live-agent reliability from protocol smoke. |
 | 5 | Preserve cross-version search history and scoped learning | Required before a second research version can conceal earlier data exposure or selection. |
@@ -156,6 +156,28 @@ No automatic end-to-end reliability is claimed. Data fitness remains binding
 now, and no market-data test, training, trading or capital action was performed.
 
 ### 2. One verified rule-based backtest backend
+
+**Implementation scope authorized on 2026-09-05:** The owner requested both
+Backtrader and LEAN integrations and deferred real data and strategy work.
+The local [backend adapters](backends/README.md) now execute a shared synthetic
+cash-instrument fixture through both actual engines. Locked dependencies,
+explicit next-bar-open timing, fees and absolute slippage, retained execution
+receipts, complete synthetic fingerprints and cross-engine conformance checks
+cover this bounded engineering path. The generator does not rank candidates or
+invoke either backend. No empirical research path is activated by installation.
+
+Priority 2 remains open for the first case's exact instrument/data conventions,
+source-specific strategy adapter, normal research-stage admission and required
+order/execution acceptance tests. Stop/limit/partial/queue fills, futures mapping
+and rolls, calendars, borrow and capacity are not verified by this initial
+fixture. The backend guide also retains the upstream DotNetZip advisory and
+the prohibition on external archive ingestion in this initial path. Resolve
+applicable limits before extending that path; synthetic agreement alone does
+not select a production backend or establish data fitness or market edge.
+
+The following register retains the original candidate assessment and selection
+order; the implementation above supersedes its planning-only status for the
+two named synthetic adapters, not for the other candidates or empirical use.
 
 The owner requested that external rule-based backtest engines be retained
 as candidates assessed from documentation before implementing a genuine backtest
