@@ -157,6 +157,16 @@ now, and no market-data test, training, trading or capital action was performed.
 
 ### 2. One verified rule-based backtest backend
 
+**Retail proportionality plan — owner-approved 2026-09-06 (implementation not activated):** For the
+priority-3 case, close only the exact bar-strategy admission and execution path
+needed by that case. Reuse verified infrastructure with checked applicability;
+do not require both engines for every idea. The priority-1 paired-uniform truth
+verifier does not establish structure-appropriate controls for a market case.
+Any required reference-world verifier remains an explicit dependency. Retain
+the existing replication floor and freeze requirements pending measured,
+separately reviewed evidence for changing them; move cheap rejection ahead of
+validation rather than substituting a warning for failed pipeline integrity.
+
 **Implementation scope authorized on 2026-09-05:** The owner requested both
 Backtrader and LEAN integrations and deferred real data and strategy work.
 The local [backend adapters](backends/README.md) now execute a shared synthetic
@@ -298,7 +308,38 @@ the relevant existing roadmap entry before proposing additional discovery
 tooling. This is a planned case-evaluation requirement, not a new universal
 gate, a change in priority order, or authorization to run research.
 
+**Retail calibration plan — owner-approved 2026-09-06 (implementation not activated):** Priority 3 is a
+bounded framework calibration, not a recurring setup charge for every idea.
+Measure a proposed five-minute feasibility triage, two-hour descriptive triage,
+and one working day of survivor setup separately from initial engineering,
+machine runtime, data acquisition, and the frozen validation observation period.
+Budgets stop or defer effort; expiration is neither hypothesis falsification nor
+permission to skip a gate. A less-than-five-percent survivor target is a resource
+preference, not an empirical expectation or a required rejection quota. Cheap
+rejection remains distinct from PROMOTED and independent evidence. Existing
+promotion, specialist, data-fitness and search requirements remain binding.
+
+For priority 3, predeclare an adequate retail-data case and its supported claim;
+require an ordinary end-to-end route with retained evidence, no bypass, no
+mid-case framework repair, and the recorded setup budget met. A valid negative
+or inconclusive research outcome may pass this usability check. An early intake
+rejection does not demonstrate the complete route. An unavailable required
+pipeline verifier or execution model is a framework feasibility failure for
+this acceptance target, not a disproved strategy. Preserve the case and evaluate
+fixes separately; do not silently replace a failed calibration candidate.
+
 ### 4. Behavioural baseline and adversarial live-agent evaluation
+
+**Retail evaluation plan — owner-approved 2026-09-06 (implementation not activated):**
+For priority 4, freeze paired baseline/candidate cases, models, tools, budgets,
+critical assertions and full trajectories. Measure actual bypasses per required
+transition, unnecessary blocks per permitted transition, owner effort, and
+unsupported edge acceptance per predeclared invalid/null challenge. Require zero
+critical misses, no newly introduced bypass, and improvement at the targeted
+friction cases; a zero-bypass baseline must remain zero rather than be forced
+to improve numerically. Report grouped uncertainty and all failures. Finite
+zero-failure runs cannot establish a zero population false-edge rate. Insufficient
+precision means the general non-increase claim remains unestablished, not PASS.
 
 Treat the
 earlier LLM stress test, behavioural reference cases, and adversarial agent
@@ -378,6 +419,16 @@ or preserving critical microstructure structure.
 
 ### 5. Cross-version search lineage, selection-adjusted reporting, and scoped cumulative learning
 
+**Retail triage plan — owner-approved 2026-09-06 (implementation not activated):** Bind generation-run and
+candidate IDs to the existing search-space history before outcome-informed
+triage. Retain generated, inspected, rejected, deferred and promoted candidates,
+actual exposures, selection reasons and the applicable multiplicity family;
+descriptive inspection is not fresh validation data. Use the existing observation
+origin hook for a small journal record with timestamp, snapshot/window, observation,
+counterexamples, selection basis, candidate link and evidence limits. An observation
+may propose a new INBOX candidate; it cannot rewrite or promote the previous one.
+This protects selection and learning without adding a ranker or knowledge platform.
+
 Treat search-history accounting and statistical
 consequence as one control. Every new Research-ID or version inherits prior
 data exposure, definitions, filters, outcomes, continuation choices, and
@@ -444,6 +495,18 @@ anchored, say plainly that it is tamper-evident bookkeeping only to the
 extent that the storage history is trustworthy.
 
 ### 7. Structured enforcement of the existing data-fitness prerequisite
+
+**Retail feasibility plan — owner-approved 2026-09-06 (implementation not activated):** Add non-ranking,
+market/symbol-agnostic requirements to generation metadata: required feed, minimum
+resolution, session dependency and cost sensitivity, with uncertainty and source
+references. Resolve them privately per case against the actual snapshot, instrument,
+venue, timestamp meaning, timezone and decision-time availability. Reuse existing
+case artifacts for exact applicable auction publication/cross, funding snapshot,
+roll and open/close rules, their source/version/effective dates, and the order,
+cost and capacity assumptions. This is a market-session record, not a news calendar.
+Only supported unchanged claims may continue with scope limits; missing information
+material to the requested claim still stops that path. Queue evidence is required
+when the fill assumption depends on queue position, not universally for every order.
 
 **Status: the prerequisite is binding now under `AGENTS.md`; only its
 dedicated machine-readable artifact and enforcement remain planned.**
@@ -513,6 +576,13 @@ claim, instrument, coverage, resolution, and acquisition burden before
 operationalization or empirical work.
 
 ### 8. Conditional market-structure and execution assessment
+
+**Retail boundary plan — owner-approved 2026-09-06 (implementation not activated):** Reuse the priority-7
+case instantiation for triggered domain checks. Do not interpret ordinary exchange
+opening hours alone as an auction mechanism, or generic cost awareness alone as
+a liquidity mechanism. Actual auction, funding, roll, flow and execution premises
+must remain visible; predictive wording cannot hide a real domain dependency.
+Retain the existing implementation dependency and observed activation signals.
 
 **Status: CONDITIONAL planned capability; no route, artifact, or specialist
 exists yet.** Financial economics and market microstructure already inform
@@ -613,6 +683,14 @@ before isolated normative sections can be trusted; it is not a general
 terminology or documentation project.
 
 ### 11. Severity-aware change control
+
+**Retail friction plan — owner-approved 2026-09-06 (implementation not activated):** Once the existing
+activation evidence is present, prove a narrow class of non-material presentation
+changes against the semantic state and retain their byte-level history without a
+research-version approval. Unknown semantic significance and evidence-file tampering
+remain fail closed. Automate existing fingerprint, checkpoint and route-bound
+capability records rather than requesting that the owner maintain them manually.
+This proposes no blanket hash exception or reuse across a changed runtime or mandate.
 
 Separate semantic research changes,
 evidence-integrity changes, and demonstrably non-material editorial changes.
