@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "data_role": "SYNTHETIC_BACKEND_FIXTURE",
+  "instrument": "SYNTH",
+  "currency": "USD",
+  "timezone": "UTC",
+  "session": "SYNTHETIC_ALWAYS_OPEN",
+  "instrument_model": "CASH_UNIT_MULTIPLIER_ONE",
+  "bar_seconds": 60,
+  "fill_model": "NEXT_BAR_OPEN_FULL_FILL",
+  "initial_cash": 10000,
+  "quantity": 2,
+  "entry_close_at_least": 103,
+  "exit_close_at_most": 105,
+  "fee_per_unit": 1,
+  "slippage_absolute": 0.5,
+  "bars": [
+    {"end": "2026-01-05T09:01:00Z", "open": 100, "high": 102, "low": 99, "close": 101, "volume": 100},
+    {"end": "2026-01-05T09:02:00Z", "open": 101, "high": 104, "low": 100, "close": 103, "volume": 100},
+    {"end": "2026-01-05T09:03:00Z", "open": 110, "high": 112, "low": 109, "close": 111, "volume": 100},
+    {"end": "2026-01-05T09:04:00Z", "open": 111, "high": 112, "low": 105, "close": 106, "volume": 100},
+    {"end": "2026-01-05T09:05:00Z", "open": 106, "high": 108, "low": 103, "close": 104, "volume": 100},
+    {"end": "2026-01-05T09:06:00Z", "open": 98, "high": 100, "low": 97, "close": 99, "volume": 100},
+    {"end": "2026-01-05T09:07:00Z", "open": 99, "high": 101, "low": 98, "close": 100, "volume": 100}
+  ]
+}

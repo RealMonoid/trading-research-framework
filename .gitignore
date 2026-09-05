@@ -9,3 +9,9 @@ Thumbs.db
 # Private strategies, data, Research Cases, and empirical outputs.
 /private_research/
 /artifacts/private/
+
+# Local backend builds and synthetic execution receipts.
+/backends/lean/bin/
+/backends/lean/obj/
+/artifacts/backend-runs/
+/.venv-backends/

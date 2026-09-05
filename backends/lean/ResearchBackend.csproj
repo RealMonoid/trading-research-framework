@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="QuantConnect.Lean.Engine" Version="2.5.18042" />
+    <PackageReference Include="QuantConnect.Messaging" Version="2.5.18042" />
+    <PackageReference Include="QuantConnect.Queues" Version="2.5.18042" />
+    <!-- Explicit patched versions replace legacy transitive runtime dependencies. -->
+    <PackageReference Include="System.Drawing.Common" Version="10.0.11" />
+    <PackageReference Include="System.Net.Http.WinHttpHandler" Version="10.0.11" />
+    <PackageReference Include="System.Private.ServiceModel" Version="4.10.3" />
+    <PackageReference Include="System.ServiceModel.Primitives" Version="8.1.2" />
+    <PackageReference Include="System.Security.Cryptography.Xml" Version="10.0.11" />
+  </ItemGroup>
+</Project>

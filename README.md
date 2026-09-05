@@ -42,6 +42,15 @@ explain how finance, cognitive science, AI search, philosophy of science,
 experimental design, statistics, machine learning, decision theory, and
 production engineering contribute without being blended into one theory.
 
+## Local backtest backend integration
+
+Backtrader and LEAN have local adapters with a shared synthetic order, fill,
+timing, fee and slippage contract. The [backend guide](backends/README.md)
+describes setup, reproducible comparisons and the current boundary: one
+synthetic cash instrument with next-bar-open market orders. Real-data admission,
+source-specific strategies and instrument-specific execution tests remain
+future work. Engine conformance is not evidence of market edge.
+
 ## Why this is difficult
 
 Trading ideas often sound more precise than they are. A source may say that a
