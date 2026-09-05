@@ -319,6 +319,15 @@ preference, not an empirical expectation or a required rejection quota. Cheap
 rejection remains distinct from PROMOTED and independent evidence. Existing
 promotion, specialist, data-fitness and search requirements remain binding.
 
+For this planned triage, protect the research-effort decision by separating
+unanswerability with available data, unresolved feasibility, and a reasoned
+economic rejection. An economically unattractive hypothesis may still be
+testable. Use case-specific cost assumptions and a sourced, uncertainty-aware
+basis for any expected-move comparison; do not impose a universal tick allowance
+or cost multiple. Outcome-informed estimates remain recorded data exposure.
+A checklist cannot substitute for the existing noise screen or valid waiver,
+and adds no universal quota of alternative hypotheses.
+
 For priority 3, predeclare an adequate retail-data case and its supported claim;
 require an ordinary end-to-end route with retained evidence, no bypass, no
 mid-case framework repair, and the recorded setup budget met. A valid negative
@@ -429,6 +438,13 @@ counterexamples, selection basis, candidate link and evidence limits. An observa
 may propose a new INBOX candidate; it cannot rewrite or promote the previous one.
 This protects selection and learning without adding a ranker or knowledge platform.
 
+For this planned linkage, reuse existing universe and search-space references,
+but verify their completeness across versions. Distinguish generated candidates,
+actually screened variants and repeated outcome inspections; a generator count
+or checkpoint link alone does not establish the full search history. Include
+manual and agent selection, even without a numerical ranker. This protects
+selection-adjusted reporting from a falsely fresh candidate family.
+
 Treat search-history accounting and statistical
 consequence as one control. Every new Research-ID or version inherits prior
 data exposure, definitions, filters, outcomes, continuation choices, and
@@ -507,6 +523,14 @@ cost and capacity assumptions. This is a market-session record, not a news calen
 Only supported unchanged claims may continue with scope limits; missing information
 material to the requested claim still stops that path. Queue evidence is required
 when the fill assumption depends on queue position, not universally for every order.
+
+Scope these planned metadata requirements to the observable, horizon and intended
+claim rather than treating one mechanism-level resolution as universally valid.
+The private instantiation documents assumptions; it does not itself establish
+data fitness. Protect its effective contents through the existing complete
+fingerprint and material-artifact references, reusing case records rather than
+creating a parallel registry. This protects early data-budget decisions without
+turning catalogue labels or format validation into evidence of answerability.
 
 **Status: the prerequisite is binding now under `AGENTS.md`; only its
 dedicated machine-readable artifact and enforcement remain planned.**
