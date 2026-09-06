@@ -18,6 +18,37 @@ be read, stop rather than continue with an incomplete rule set. If another
 document appears to conflict with this file, this file controls and the conflict
 must be reported instead of resolved silently.
 
+## Scope of research-specific controls
+
+This file binds every agent for two distinct kinds of work, and they are not
+enforced the same way.
+
+Repository collaboration mechanics — a dedicated branch per task, an
+`AGENT_CHANGELOG.md` entry on completion, no direct commit or push to `main`,
+and English for new or changed repository artifacts — apply to any repository
+work, including ordinary software maintenance on the framework itself (writing
+or fixing a script, wiring up a backend adapter, editing documentation). These
+rules are not research-specific and do not depend on whether a trading or
+market question is involved.
+
+The research-conductor apparatus — `scripts/route_research_task.py`, the
+mandatory `specialist_capability_check`, the complete research-fingerprint
+comparison, the `outcome_evidence_contract` and `pipeline_integrity_assessment`
+protocol, and `capabilities/scientific_skill_manifest.v1.json` — binds only a
+user-facing trading-research task: a request that asks the agent to evaluate,
+generate, or accept a claim about a market, strategy, or trading edge. Ordinary
+software engineering on the framework's own code and documentation is not such
+a task. An agent doing that kind of work may choose any general-purpose
+library, tool, or scientific skill by its own engineering judgment, exactly as
+it would on any other software project, without consulting the skill manifest
+or the router.
+
+An agent must not use this distinction to avoid a mandatory research control by
+recasting a real research question as "just coding," and must not use it to add
+branch, changelog, or language overhead to work that is not repository work at
+all, such as answering a question or a read-only status check that changes no
+file.
+
 ## Shared roadmap for all agents
 
 `ROADMAP.md` is the single authoritative roadmap and priority order for
