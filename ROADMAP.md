@@ -328,6 +328,22 @@ or cost multiple. Outcome-informed estimates remain recorded data exposure.
 A checklist cannot substitute for the existing noise screen or valid waiver,
 and adds no universal quota of alternative hypotheses.
 
+**Report-informed planning refinement — owner-authorized 2026-09-06 (implementation not activated):**
+For a time-limited opportunity, include its sourced effective dates, expiry or
+unknown remaining lifetime in this same feasibility triage. Compare the available
+window with data acquisition, required independent evidence and implementation
+lead time before committing substantial effort. Distinguish a currently
+investigable opportunity from a historical learning example or a recurring-event
+hypothesis needing its own evidence. A missed window is neither a disproved
+hypothesis nor permission to shorten validation; do not assume an expired event
+will recur. Reuse existing private feasibility and source records. This protects
+the owner's research-time allocation without creating an event-monitoring service
+or automatically rejecting worthwhile historical research. The report's historical
+token-redemption example motivates this distinction; official event dates do not
+verify reported trader profits.
+Source context: the owner-supplied *Reddit Algotrading Alpha Research* report
+(2026-09-06, pp. 3, 5) and the [official redemption closure](https://blog.aragon.org/ant-redemption-initiative-report/).
+
 For priority 3, predeclare an adequate retail-data case and its supported claim;
 require an ordinary end-to-end route with retained evidence, no bypass, no
 mid-case framework repair, and the recorded setup budget met. A valid negative
@@ -444,6 +460,23 @@ actually screened variants and repeated outcome inspections; a generator count
 or checkpoint link alone does not establish the full search history. Include
 manual and agent selection, even without a numerical ranker. This protects
 selection-adjusted reporting from a falsely fresh candidate family.
+
+**Report-informed planning refinement — owner-authorized 2026-09-06 (implementation not activated):**
+Make outcome-dependent selection explicit even when indicator parameters remain
+fixed: retained regime cells, enabled strategies, combination weights and switching
+rules belong to the search history when selected from observed performance. If
+reselection is part of the intended strategy, freeze and evaluate the selection
+procedure, including its inputs, timing and permitted alternatives, using only
+information available before each outer test window. Testing today's selected
+winners retrospectively is not a replay of that procedure. If selection was
+discretionary and cannot be replayed, preserve its exposure and evaluate the
+resulting frozen candidate on genuinely unused evidence instead of inventing a
+historical decision rule. Reuse existing search, fingerprint and validation
+contracts. Under priority 4, check that fixed indicator values do not excuse
+outcome-selected filters and that valid predeclared reselection is not blocked
+merely because it adapts. This clarifies selection-adjusted evaluation; it adds
+no optimizer, automatic switching feature or universal walk-forward requirement.
+Source context: the same report (pp. 3-5) and the [original regime-filter discussion](https://www.reddit.com/r/algotrading/comments/1e490dv/what_have_been_your_breakthroughaha_moments_in/).
 
 Treat search-history accounting and statistical
 consequence as one control. Every new Research-ID or version inherits prior
