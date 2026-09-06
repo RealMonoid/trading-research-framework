@@ -246,6 +246,48 @@ only a replaceable execution component behind that control layer.
    the owner does not want ML-driven research, model training, factor mining,
    or model optimization in this project.
 
+#### Retained validation candidates and activation triggers
+
+The following owner-approved screen preserves useful external candidates
+without adding a second research workflow or runtime dependency. The entries
+protect the decision whether an existing framework control is sufficient for a
+concrete case; they do not authorize installation, market-data access,
+empirical testing, or strategy changes.
+
+1. **rulelint — immediate bounded review.** Review it against the synthetic
+   rule-admission fixture because it can detect dead conditions and some
+   current-bar look-ahead patterns before a backend run. It may become a small
+   pre-backtest diagnostic only if its input grammar, `unknown` handling,
+   false-positive behavior, and report provenance can be bound to the existing
+   strategy fingerprint. It must not replace source reconstruction, data
+   fitness, execution validation, or the canonical outcome protocol.
+2. **backtest-bias — retain for an equity-panel trigger.** Reconsider when a
+   case uses a changing equity universe, delisted names, recycled tickers, or
+   a historical screen whose membership must be reconstructed. It is not a
+   substitute for point-in-time fundamentals, price-timestamp checks,
+   corporate-action validation, or complete data-fitness assessment.
+3. **purgedcv — retain for an overlapping-label predictive trigger.** Reconsider
+   only when an approved candidate has supervised forward labels, overlapping
+   evaluation windows, or a model-selection family that needs purged/embargoed
+   splits. Its splitter must remain a method aid; it does not validate feature
+   construction, returns, costs, fills, capacity, or executable edge.
+4. **pit-release-gate — retain for a staggered-arrival cross-sectional trigger.**
+   Reconsider when a signal uses same-period cross-sectional data and entity
+   observations arrive on different dates, especially filings or other
+   as-filed records. It requires reliable arrival times and does not replace
+   as-of/bitemporal joins or general look-ahead controls.
+5. **NoEdge-Bench — retain for a synthetic-control trigger.** Reconsider when
+   the pipeline-integrity assessment needs an additional memoryless null and a
+   known leakage demonstration. It can be one structure-appropriate negative
+   control only; its synthetic binary-options result is never market evidence
+   or a substitute for the required control family and known-effect sentinel.
+6. **Lacuna — do not adopt as a framework dependency.** Reconsider only if a
+   concrete validation gap remains after the existing outcome contract,
+   pipeline-integrity assessment, fingerprint, and execution-evidence path
+   have been applied. Any useful isolated method would require a scoped,
+   versioned comparison; importing its broad audit layer would create a second
+   validation architecture and is therefore not the default path.
+
 Before any candidate can become an active backend, implement the priority-1
 validation-boundary and pipeline-integrity corrections and satisfy the binding
 data-fitness prerequisite in `AGENTS.md`. Then build a backend-neutral adapter contract that
