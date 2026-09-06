@@ -74,6 +74,14 @@ a detailed rationale of WHY it was changed (including an explicit problem
 description, decision context, and invariants protected), and the verification
 status.
 
+Every agent must also maintain `AGENT_FAILURE_LOG.md`. For a real case, the
+complete chronology of every related failure, error, and avoidable stop belongs
+in that case's failure file under ignored `private_research/`, with the full
+model name and version, ISO 8601 timestamp, exact description, exact location,
+impact, recovery or unresolved status, and evidence. The tracked log defines
+the rule and contains only safe repository-level entries; it must not duplicate
+private strategy or data.
+
 ## Multi-agent Git collaboration guardrails
 
 When multiple agents or a newly joining LLM work in this repository, follow
