@@ -28,3 +28,11 @@ agent failure unless its handling failed or caused avoidable friction.
 - **Impact**: The owner had to repeat a short continuation instruction instead of receiving one continuous bounded preparation pass.
 - **Recovery**: Added the incident to the private case log and made this repository-wide log mandatory for future agents.
 - **Evidence**: `private_research/expander-strategy-v1/FAILURES_AND_FRICTION.md`.
+
+### 2026-09-08T18:47:31.398133+02:00 — ChatGPT 6 Astra
+
+- **Failure description**: Attempted PR #68 merge before reconciling a branch whose predecessor commit had already been squash-merged as PR #67. GitHub rejected the merge. The initial progress message incorrectly attributed the conflict to newly changed main.
+- **Location**: PR #68 merge command and AGENT_CHANGELOG.md history reconciliation.
+- **Impact**: One rejected merge and another CI cycle; no content loss or direct main write.
+- **Recovery**: Merged origin/main into the task branch. The only conflict was the changelog append against an empty counterpart; retained the entire existing changelog exactly.
+- **Evidence**: https://github.com/RealMonoid/trading-research-framework/pull/68 and the task branch merge commit.
