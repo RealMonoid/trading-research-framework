@@ -502,7 +502,7 @@ Before model or window selection, state separately:
 
 A long history can reduce estimation uncertainty and expose rare loss states, but it does not by itself establish current profitability. A short recent sample can be more comparable to current execution, but it can leave crisis and tail estimates imprecise. If a detected or economically documented break motivates different windows or weights, record the affected claim and the remaining non-comparability; a break test is not proof of a named market regime or a sufficient reason to discard all earlier data.
 
-Do not preset a universal number of years, decay half-life, weighting scheme or post-break cutoff. Treat a choice among alternative window or weighting rules as part of the model-selection family and preserve it for the applicable multiplicity and out-of-sample assessment. See C25 in `references/INTERDISCIPLINARY_TRADING_RESEARCH_FOUNDATIONS.md` and §19 for state or regime measurement.
+Do not preset a universal number of years, decay half-life, weighting scheme or post-break cutoff. Treat a choice among alternative window or weighting rules as part of the model-selection family and preserve it for the applicable multiplicity and out-of-sample assessment. See C25 in `evidence/INTERDISCIPLINARY_TRADING_RESEARCH_FOUNDATIONS.md` and §19 for state or regime measurement.
 
 ---
 
@@ -769,7 +769,7 @@ A research project may have two separate targets, such as an identified average 
 
 This sequence is not only documented, but enforced by a separate test step. Before effect estimation or causal formulation, the `causal-identification-critic` creates a `causal_identification_assessment`. The main agent may only accept `E7 PASS` from a schematically and semantically tested assessment. For an explicitly predictive question, the result is `NOT_REQUIRED_PREDICTIVE`; it is not interpreted as a causality test.
 
-The financial market-specific test base is versioned in `references/CAUSAL_IDENTIFICATION_FOR_FINANCE.md`. It complements the general method standard in particular by factor model misspecification and systematic event timing in financial event studies, pre-information and information shocks in high-frequency identification, simultaneous price/order flow determination as well as feedback, spillovers and time-dependent treatment.
+The financial market-specific test base is versioned in `evidence/CAUSAL_IDENTIFICATION_FOR_FINANCE.md`. It complements the general method standard in particular by factor model misspecification and systematic event timing in financial event studies, pre-information and information shocks in high-frequency identification, simultaneous price/order flow determination as well as feedback, spillovers and time-dependent treatment.
 
 For an actually required graph and adjustment check, `pgmpy` or `DoWhy` are primarily used. A DAG is not additionally mandatory if a potential-outcomes or other explicit design identifies the estimand under fully documented assumptions. The model accepted by the tool is still an input assumption; a successful API query does not confirm the truth of the model.
 

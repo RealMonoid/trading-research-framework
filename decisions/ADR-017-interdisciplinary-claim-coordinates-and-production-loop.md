@@ -121,7 +121,7 @@ Costs and limits:
 
 The academic basis, source scopes, anti-substitution rules, and the distinction
 between source-backed findings and project synthesis remain in
-[`INTERDISCIPLINARY_TRADING_RESEARCH_FOUNDATIONS.md`](../references/INTERDISCIPLINARY_TRADING_RESEARCH_FOUNDATIONS.md).
+[`INTERDISCIPLINARY_TRADING_RESEARCH_FOUNDATIONS.md`](../evidence/INTERDISCIPLINARY_TRADING_RESEARCH_FOUNDATIONS.md).
 
 ## Verification
 

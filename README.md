@@ -36,7 +36,7 @@ protects capital without changing the programme-level goal.
 
 The adopted mission decision is recorded in
 [ADR-016](decisions/ADR-016-applied-interdisciplinary-trading-research-mission.md).
-The [interdisciplinary foundations](references/INTERDISCIPLINARY_TRADING_RESEARCH_FOUNDATIONS.md)
+The [interdisciplinary foundations](evidence/INTERDISCIPLINARY_TRADING_RESEARCH_FOUNDATIONS.md)
 and [ADR-017](decisions/ADR-017-interdisciplinary-claim-coordinates-and-production-loop.md)
 explain how finance, cognitive science, AI search, philosophy of science,
 experimental design, statistics, machine learning, decision theory, and
@@ -389,7 +389,7 @@ produce a validated
 [identification assessment](schemas/causal_identification_assessment.schema.json)
 before causal estimation or causal wording is accepted. The review uses a
 versioned
-[quantitative-finance research basis](references/CAUSAL_IDENTIFICATION_FOR_FINANCE.md)
+[quantitative-finance research basis](evidence/CAUSAL_IDENTIFICATION_FOR_FINANCE.md)
 and examines event timing, counterfactual return models, simultaneity,
 information shocks, spillovers, post-treatment variables, dependence, and
 regime instability. A question that remains explicitly predictive does not
@@ -472,7 +472,7 @@ the producer/scorer protocol, and the regression suite. The bundled score of
 claim requires a produced `LIVE_AGENT` result.
 
 Prioritized work, conditional options, and completed foundations are listed in
-[`ROADMAP.md`](ROADMAP.md).
+[`process/ROADMAP.md`](process/ROADMAP.md).
 
 ## Direct raw entry point for automated readers
 

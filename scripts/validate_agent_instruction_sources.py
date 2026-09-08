@@ -37,22 +37,22 @@ def main() -> int:
             "AGENTS.md does not declare itself as the sole instruction source.",
         ),
         (
-            "`ROADMAP.md` is the single authoritative roadmap and priority "
+            "`process/ROADMAP.md` is the single authoritative roadmap and priority "
             "order for\nCodex, Claude, Gemini, and every other agent.",
-            "AGENTS.md does not declare ROADMAP.md as the shared agent roadmap.",
+            "AGENTS.md does not declare process/ROADMAP.md as the shared agent roadmap.",
         ),
     )
     for statement, error in required_statements:
         if statement not in canonical:
             raise SystemExit(error)
 
-    roadmap = (ROOT / "ROADMAP.md").read_text(encoding="utf-8")
+    roadmap = (ROOT / "process/ROADMAP.md").read_text(encoding="utf-8")
     roadmap_statement = (
         "This file is the single authoritative feature backlog and implementation\n"
         "priority for Codex, Claude, Gemini, and every other agent"
     )
     if roadmap_statement not in roadmap:
-        raise SystemExit("ROADMAP.md does not declare itself as the shared roadmap.")
+        raise SystemExit("process/ROADMAP.md does not declare itself as the shared roadmap.")
 
     for filename in ("CLAUDE.md", "GEMINI.md"):
         actual = (ROOT / filename).read_text(encoding="utf-8")

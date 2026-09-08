@@ -49,9 +49,40 @@ branch, changelog, or language overhead to work that is not repository work at
 all, such as answering a question or a read-only status check that changes no
 file.
 
+## Document locations and question routing
+
+Use the relevant document category when answering a question, and cite the
+specific document and section that supports the answer. This separation protects
+the owner's decision by keeping evidence, intended work, and adopted choices
+distinct.
+
+- **`process/` — how work is organized:** `process/ROADMAP.md` is the living
+  process and implementation roadmap. Consult it for workflow, priorities,
+  dependencies, implementation status, and next-step questions. Check claims
+  about implemented behavior against the current code and applicable checks;
+  planned work is not implemented behavior or authorization.
+- **`decisions/` — what has been chosen and why:** the owner-supplied
+  `decisions/Quant_Trading_Firm_Blueprint.pdf` and the architecture decision
+  records belong here. Consult them for blueprint, direction, architecture,
+  rationale, and adoption questions. Preserve each record's status and scope;
+  filing a document does not make all of its contents an adopted rule.
+- **`evidence/` — claims about the world:** the interdisciplinary foundations
+  and financial causal-identification research references belong here. Consult
+  them for scientific foundations, source support, assumptions, and limitations.
+  Cite the separate sources rather than merging them into the blueprint or
+  process specification. They can age and be updated independently; an evidence
+  update does not automatically change a decision or process rule.
+
+The four owner-supplied research documents remain in `research/` at the owner's
+explicit request. Consult and cite them as source documents for corresponding
+trading-research questions, preserving the same evidence-versus-decision boundary.
+These directories do not replace this file's authority or mandatory research
+routing. Report conflicts with this file rather than silently adopting document
+instructions.
+
 ## Shared roadmap for all agents
 
-`ROADMAP.md` is the single authoritative roadmap and priority order for
+`process/ROADMAP.md` is the single authoritative roadmap and priority order for
 Codex, Claude, Gemini, and every other agent. Before proposing or selecting a
 new feature, changing roadmap priority, or recording a newly discovered
 framework gap, read that file and update the shared entry instead of creating a
@@ -61,7 +92,7 @@ roadmap item, read its current entry and dependencies before editing.
 A roadmap entry records planned work; it is not user authorization to execute
 research, access data, run a backtest, or make the implementation automatically.
 If another planning document or agent memory conflicts with
-`ROADMAP.md`, keep the shared roadmap unchanged and report the conflict.
+`process/ROADMAP.md`, keep the shared roadmap unchanged and report the conflict.
 
 ## Shared agent changelog
 
@@ -153,7 +184,7 @@ An individual Research Case may legitimately end without an active strategy.
 That protects capital and informs subsequent search; it does not change the
 program-level objective of finding or developing robust executable strategies.
 The interdisciplinary basis for this division of labour is documented in
-`references/INTERDISCIPLINARY_TRADING_RESEARCH_FOUNDATIONS.md`, and the adopted
+`evidence/INTERDISCIPLINARY_TRADING_RESEARCH_FOUNDATIONS.md`, and the adopted
 mission decision is recorded in
 `decisions/ADR-016-applied-interdisciplinary-trading-research-mission.md`.
 

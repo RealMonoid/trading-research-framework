@@ -48,8 +48,8 @@ The files perform various functions:
 | `capabilities/scientific_skill_manifest.v1.json` |Reviewed map of permitted and deferred local scientific-method skills, roles, boundaries, and content snapshots|Only when considering a listed optional method skill|
 | `agents/causal-identification-critic.md` |Independent examination of whether a financial-market design supports the intended causal statement|Before any interventional or counterfactual estimate and before causal language; not for purely predictive questions|
 | `agents/framework-control-reviewer.md` |Bounded review of observable workflow-control failures such as bypasses, scope changes, repeated equivalent attempts, conflicts or stale memory|Only after an explicit framework-control request or a concrete control signal; not an ordinary research gate|
-| `references/INTERDISCIPLINARY_TRADING_RESEARCH_FOUNDATIONS.md` |Academic basis for the adopted division of disciplinary labour and limits on transferring claims between fields|When designing, reviewing, or changing the interdisciplinary research architecture; not required for every ordinary case|
-| `references/CAUSAL_IDENTIFICATION_FOR_FINANCE.md` |Versioned research basis for financial market-specific identification risks|At each causality test|
+| `evidence/INTERDISCIPLINARY_TRADING_RESEARCH_FOUNDATIONS.md` |Academic basis for the adopted division of disciplinary labour and limits on transferring claims between fields|When designing, reviewing, or changing the interdisciplinary research architecture; not required for every ordinary case|
+| `evidence/CAUSAL_IDENTIFICATION_FOR_FINANCE.md` |Versioned research basis for financial market-specific identification risks|At each causality test|
 | `reconstruction/README.md` |Source-based translation of book/article/video/course strategies|When a source strategy is not fully operationalized|
 | `00_RESEARCH_AGENT_README.md` |Routing, gate and non-skip rules|From `PROMOTED`|
 | `01_RESEARCH_STANDARD.md` |Normative research standard|From `PROMOTED`|
@@ -136,7 +136,7 @@ authorize a backtest, or create follow-up work. Validate the report with
 `scripts/validate_data_analysis_report.py`; if data are inadequate, retain
 `NOT_TESTABLE` or `BLOCKED` rather than silently weakening the question. This
 bounded report does not replace the prospective data-fitness gate planned in
-`ROADMAP.md`.
+`process/ROADMAP.md`.
 
 ### Optional local scientific-method capabilities
 

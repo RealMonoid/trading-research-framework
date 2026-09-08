@@ -6,7 +6,7 @@
 
 # 1. Basic rule
 
-This document only regulates the tools **after** the content identification check. For `INTERVENTIONAL` or `COUNTERFACTUAL`, a validated `causal_identification_assessment` conforming to `schemas/causal_identification_assessment.schema.json` must be available beforehand. A library run cannot replace this mandatory artifact. The binding financial market-specific research basis is in `references/CAUSAL_IDENTIFICATION_FOR_FINANCE.md`.
+This document only regulates the tools **after** the content identification check. For `INTERVENTIONAL` or `COUNTERFACTUAL`, a validated `causal_identification_assessment` conforming to `schemas/causal_identification_assessment.schema.json` must be available beforehand. A library run cannot replace this mandatory artifact. The binding financial market-specific research basis is in `evidence/CAUSAL_IDENTIFICATION_FOR_FINANCE.md`.
 
 Once a causal method is executed as code, the agent uses a suitable specialized library, provided a well-maintained and design-friendly implementation is available. Causal core algorithms are not rewritten ad hoc.
 

@@ -19,7 +19,7 @@ inconclusive evidence, or non-testability; these outcomes protect the applied
 mission rather than replacing it.
 
 The interdisciplinary role boundaries are summarized in
-[`INTERDISCIPLINARY_TRADING_RESEARCH_FOUNDATIONS.md`](references/INTERDISCIPLINARY_TRADING_RESEARCH_FOUNDATIONS.md).
+[`INTERDISCIPLINARY_TRADING_RESEARCH_FOUNDATIONS.md`](evidence/INTERDISCIPLINARY_TRADING_RESEARCH_FOUNDATIONS.md).
 The adopted mission and its limits are recorded in
 [`ADR-016`](decisions/ADR-016-applied-interdisciplinary-trading-research-mission.md).
 
@@ -266,7 +266,7 @@ A trading strategy can be fully studied as a forecast without claiming that a si
 
 On the other hand, as soon as an intervention, a structural shock, or a counterfactual is to be claimed, the [`causal-identification-critic`](agents/causal-identification-critic.md) must check whether the comparison carries this meaning at all. Its [`causal_identification_assessment`](schemas/causal_identification_assessment.schema.json) identifies target impact, the source of identifying variation, the economic model, assumptions, financial-market risks, negative controls, sensitivity, and the strongest allowable statement.
 
-A model or estimator does not replace this test. This applies explicitly to DML, causal forests, local projections, VARs, event-study regressions, Granger procedures, and causal discovery. Financial event studies must cover, among other things, the counterfactual return model, event timing, volatility, and other news; high-frequency designs add leakage, timestamps, surprise construction, and information shocks. The mandatory research basis is in [`references/CAUSAL_IDENTIFICATION_FOR_FINANCE.md`](references/CAUSAL_IDENTIFICATION_FOR_FINANCE.md).
+A model or estimator does not replace this test. This applies explicitly to DML, causal forests, local projections, VARs, event-study regressions, Granger procedures, and causal discovery. Financial event studies must cover, among other things, the counterfactual return model, event timing, volatility, and other news; high-frequency designs add leakage, timestamps, surprise construction, and information shocks. The mandatory research basis is in [`evidence/CAUSAL_IDENTIFICATION_FOR_FINANCE.md`](evidence/CAUSAL_IDENTIFICATION_FOR_FINANCE.md).
 
 A successful identification gate permits only the specified causal estimate under its assumptions. Mechanism, prediction, and tradable net edge remain questions of their own.
 
