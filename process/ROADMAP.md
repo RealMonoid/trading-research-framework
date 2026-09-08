@@ -104,7 +104,7 @@ checks, live-agent evaluations, or a real Research Case.
 **Status: implementation delivered for the supported contracts and execution interface; roadmap closure remains pending the explicitly required Priority 4 live-agent bypass evaluation.**
 The missing-protocol and repeated-random-walk defects were reproduced against
 `045ae5a` before editing. The implemented completion criteria and migration are
-recorded in [ADR-018](decisions/ADR-018-validation-execution-evidence.md).
+recorded in [ADR-018](../decisions/ADR-018-validation-execution-evidence.md).
 
 1. **Canonical protocol:** v2 frozen and assessed contracts require exactly one
    `validation_protocol`. The legacy alias is removed; simultaneous fields are
@@ -169,7 +169,7 @@ validation rather than substituting a warning for failed pipeline integrity.
 
 **Implementation scope authorized on 2026-09-05:** The owner requested both
 Backtrader and LEAN integrations and deferred real data and strategy work.
-The local [backend adapters](backends/README.md) now execute a shared synthetic
+The local [backend adapters](../backends/README.md) now execute a shared synthetic
 cash-instrument fixture through both actual engines. Locked dependencies,
 explicit next-bar-open timing, fees and absolute slippage, retained execution
 receipts, complete synthetic fingerprints and cross-engine conformance checks
@@ -541,7 +541,7 @@ search-memory control, not a general knowledge base or publication product.
 
 **Initial hard-gate inventory completed 2026-09-02; additional enforcement is conditional.**
 
-The [`HARD_GATE_INVENTORY.md`](HARD_GATE_INVENTORY.md) records every current
+The [`HARD_GATE_INVENTORY.md`](../HARD_GATE_INVENTORY.md) records every current
 research gate and the claim or
 transition it is meant to prevent. For each gate, identify whether it is
 enforced by automatically invoked executable code, by a schema whose
@@ -1086,7 +1086,7 @@ numbers here identify details rather than execution order:
    editorial changes so that harmless hash changes do not train users to
    approve every warning.
 5. **Priority 6 — Hard-gate coverage accounting (initial inventory complete):** Maintain the
-   [`HARD_GATE_INVENTORY.md`](HARD_GATE_INVENTORY.md), showing
+   [`HARD_GATE_INVENTORY.md`](../HARD_GATE_INVENTORY.md), showing
    which research gates are enforced by executable checks, which are enforced
    only by schemas, which depend on an agent classification, and which remain
    prose instructions. Increase executable enforcement where the required

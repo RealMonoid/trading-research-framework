@@ -76,7 +76,7 @@ Costs and limits:
 
 The division of disciplinary labour, relevance filter, anti-eclecticism rules,
 trading implications, and source ledger are documented in
-[`INTERDISCIPLINARY_TRADING_RESEARCH_FOUNDATIONS.md`](../references/INTERDISCIPLINARY_TRADING_RESEARCH_FOUNDATIONS.md).
+[`INTERDISCIPLINARY_TRADING_RESEARCH_FOUNDATIONS.md`](../evidence/INTERDISCIPLINARY_TRADING_RESEARCH_FOUNDATIONS.md).
 
 ## Verification
 

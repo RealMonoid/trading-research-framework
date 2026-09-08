@@ -51,7 +51,7 @@ conforming to `schemas/causal_identification_assessment.schema.json`.
 
 **Required knowledge base**
 
-Read `references/CAUSAL_IDENTIFICATION_FOR_FINANCE.md` and the causal sections
+Read `evidence/CAUSAL_IDENTIFICATION_FOR_FINANCE.md` and the causal sections
 of `03_RESEARCH_METHODS.md` before reviewing a design. Apply their finance-
 specific lessons, including:
 
