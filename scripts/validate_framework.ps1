@@ -24,6 +24,18 @@ if (-not $PythonExecutable -or -not (Test-Path -LiteralPath $PythonExecutable)) 
     throw 'No Python runtime found. Pass a Python 3 path with -PythonExecutable.'
 }
 
+Write-Output '== Markdown link checker tests =='
+& $PythonExecutable (Join-Path $repoRoot 'scripts\test_markdown_links.py')
+if ($LASTEXITCODE -ne 0) {
+    throw "Markdown-link checker tests failed (exit $LASTEXITCODE)."
+}
+
+Write-Output '== Markdown links =='
+& $PythonExecutable (Join-Path $repoRoot 'scripts\validate_markdown_links.py')
+if ($LASTEXITCODE -ne 0) {
+    throw "Markdown-link validation failed (exit $LASTEXITCODE)."
+}
+
 Write-Output '== Schema contracts =='
 & (Join-Path $PSScriptRoot 'test_schemas.ps1')
 

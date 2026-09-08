@@ -209,7 +209,7 @@ README explain or implement parts of that policy; none is a second authority.
 | Change control | Complete fingerprints compare the candidate state with the effective research version before returned work is accepted. |
 | Evidence gates | Outcome contracts separate claim roles; pipeline integrity controls must pass before validation is frozen. |
 | Specialist work | Philosophy, condition inquiry, data analysis, causal identification, and workflow-control review are bounded routes with explicit triggers. |
-| Verification | Semantic validators, schema tests, generator tests, and adversarial evaluations run through `scripts/validate_framework.py`. |
+| Verification | Markdown path and anchor checks, semantic validators, schema tests, generator tests, and adversarial evaluations run through `scripts/validate_framework.py`. |
 
 Key terms used below:
 
