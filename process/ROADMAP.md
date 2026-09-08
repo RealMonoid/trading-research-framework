@@ -37,7 +37,7 @@ change-control, risk, and specialist requirements also remain in force.
 | 6 | Close observed enforcement and provenance bypasses | Initial inventory is complete; implement only the narrow additional harness justified by observed failures. |
 | 7 | Add structured enforcement of data fitness | The rule already applies; additional artifact/validator work must support it, not become an excuse to postpone it. |
 | 8 | Add conditional market-structure and execution assessment | Only with the specified domain triggers, data-fitness implementation dependency, and observed activation evidence. |
-| 9 | Enforce complete rule loading and reference checks | Preserve required context; missing rules must not produce apparent success. |
+| 9 | Enforce complete rule loading and reference checks | Generic checks for Git-tracked Markdown paths and anchors are implemented; route-specific proof of complete rule loading remains open. |
 | 10 | Establish decision-relevant concept mappings | Use observed ambiguity; prerequisite for trusting isolated normative sections. |
 | 11 | Distinguish material changes from harmless edits | Activate when actual alerts show approval fatigue, while retaining material-change protection. |
 | 12 | Reduce context through selective loading | Only after behavioral baseline, reference checks, concept mappings, and measured costs. |
@@ -759,6 +759,14 @@ causal identification, or approve a net edge, deployment, or capital
 allocation.
 
 ### 9. Fail-closed rule-set loading and reference checks
+
+**Partial implementation delivered:** Both normal framework entry points now
+fail when a Git-tracked Markdown document references a missing local path, a
+missing Markdown heading anchor, or a path outside the repository. The check
+ignores external URLs and examples inside code or comments, and its parser has
+focused regression coverage. This closes repository-document path drift such as
+an incomplete directory rename; it does not prove that a live agent loaded every
+document required by a research route.
 
 First enforce the
 rule at the current whole-document level: a material step must prove that

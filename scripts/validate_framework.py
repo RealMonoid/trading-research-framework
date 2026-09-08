@@ -40,6 +40,8 @@ def main(argv: Sequence[str] | None = None) -> int:
         "Agent instruction sources",
         [python, "scripts/validate_agent_instruction_sources.py"],
     )
+    run("Markdown link checker tests", [python, "scripts/test_markdown_links.py"])
+    run("Markdown links", [python, "scripts/validate_markdown_links.py"])
     run("Schema contracts", [python, "scripts/test_schemas.py"])
     run("Strategy reconstruction", [python, "scripts/test_strategy_reconstruction.py"])
     run("Strategy concept audit", [python, "scripts/test_strategy_concept_audit.py"])
