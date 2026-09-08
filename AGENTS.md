@@ -67,15 +67,14 @@ distinct.
   rationale, and adoption questions. Preserve each record's status and scope;
   filing a document does not make all of its contents an adopted rule.
 - **`evidence/` — claims about the world:** the interdisciplinary foundations
-  and financial causal-identification research references belong here. Consult
-  them for scientific foundations, source support, assumptions, and limitations.
+  and financial causal-identification references, together with the owner-supplied
+  trading-strategy, edge, and quantitative-retail research documents, belong here.
+  Consult them for scientific foundations, trading-research questions, source
+  support, assumptions, and limitations.
   Cite the separate sources rather than merging them into the blueprint or
   process specification. They can age and be updated independently; an evidence
   update does not automatically change a decision or process rule.
 
-The four owner-supplied research documents remain in `research/` at the owner's
-explicit request. Consult and cite them as source documents for corresponding
-trading-research questions, preserving the same evidence-versus-decision boundary.
 These directories do not replace this file's authority or mandatory research
 routing. Report conflicts with this file rather than silently adopting document
 instructions.

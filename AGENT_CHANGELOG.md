@@ -796,3 +796,9 @@ inferred. Present-day validation cannot prove which checks were run at the time.
 - **What**: Integrated origin/main after a rejected PR merge, retained all changelog entries, and recorded the failure and correction.
 - **Why**: **Problem description**: The branch inherited the unsquashed predecessor of PR #67, causing an append conflict despite matching baseline content. **Decision context**: The owner authorized upload and merge. **Protected invariants**: No history or collaborator content is discarded; main is updated only through a passing PR.
 - **Verification**: Conflict resolution reproduced the pre-merge changelog exactly before these new entries. Code and document contents are unchanged from the locally validated commit; CI will run on the merged branch.
+
+### 2026-09-08T18:54:48.421524+02:00 | ChatGPT 6 Astra | Consolidate research documents into evidence
+- **Files/areas**: The four documents moved from `research/` to `evidence/`, `AGENTS.md`, and `AGENT_CHANGELOG.md`.
+- **What**: Moved both HandelsstrategienUndEdge Markdown documents and both quantitative-retail research PDFs into evidence, removed the empty research directory, and updated the document-routing guidance to include these sources in evidence.
+- **Why**: **Problem description**: Two evidence directories fragmented source discovery. **Decision context**: The owner explicitly requested consolidation, removal of research, upload, and merge. **Protected invariants**: Each source remains separate and byte-identical, existing evidence is not overwritten, source language and provenance remain intact, and evidence does not become an adopted decision or instruction.
+- **Verification**: All four SHA-256 hashes are unchanged after moving; the old directory is absent. Instruction-source validation and whitespace checks are run before commit; required CI must pass before merge. No executable code or research state changed.
