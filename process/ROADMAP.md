@@ -1262,6 +1262,47 @@ availability, and baselines would then be fingerprinted and tested as part of
 the unchanged full pipeline. Neither deferred capability is an authorization to
 download a model, access data, run a backtest, or make a forecast claim.
 
+#### TimesFM use candidates — owner-requested note, 2026-09-27
+
+**Status: conditional, not activated; existing priorities and the prerequisites
+above remain unchanged.** The owner clarified that this is private research,
+not a commercial company. Record the following potential uses so a later case
+can decide whether a forecasting model merits evaluation without building an
+integration in advance:
+
+- **Comparison model:** compare a fixed TimesFM forecast with predeclared simple
+  baselines on the same target, horizon, data, and evaluation period. This
+  protects the decision whether added model complexity provides useful evidence.
+- **Forecast component:** consider a specifically defined target such as volume
+  or price variability when an authorized case needs it. These are possible
+  applications, not claims that TimesFM predicts these market quantities well.
+- **Separate strategy candidate:** if forecasts enter trading rules, register a
+  new candidate and assess the complete strategy after costs, execution, and
+  risk; general forecasting benchmarks do not establish executable edge.
+
+At activation, use the existing research route and record the exact code and
+weight revisions, configuration, context, horizon, transformations, data
+availability, and baselines in the complete fingerprint. Assess data fitness
+and possible overlap with pretraining data; evaluate on untouched observations
+under the applicable frozen protocol. Quantile forecasts require calibration
+checks on the intended data before being treated as reliable uncertainty.
+The outcome must distinguish no demonstrated improvement, limited predictive
+support, and any separately tested strategy claim. No installation, model
+download, data access, training, or backtest is authorized by this note.
+
+**Version and use-specific license review:** official documentation checked on
+2026-09-27 identifies TimesFM 3.0 as supporting multivariate forecasts and
+covariates. It states that code and weights through 2.5 are Apache-2.0, while
+3.0 weights carry the TimesFM Non-Commercial License v1.0. Keep both versions
+as conditional options rather than excluding 3.0 on an assumed company status.
+Before adoption, check the selected release's terms against the actual intended
+use: the 3.0 license defines permitted research by its purpose and use of
+results, not merely whether the user operates a company. Private evaluation
+and use in revenue-generating or production activity must not be conflated.
+This note does not determine permission for a particular future trading use.
+Sources: [official TimesFM repository](https://github.com/google-research/timesfm)
+and [TimesFM 3.0 license](https://huggingface.co/google/timesfm-3.0-pytorch/blob/main/LICENSE).
+
 ### Owner-authorized scientific-skill discovery and reproducibility — 2026-09-04
 
 The approved and deferred local scientific-method capabilities are recorded in

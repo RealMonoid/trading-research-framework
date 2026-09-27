@@ -36,3 +36,11 @@ agent failure unless its handling failed or caused avoidable friction.
 - **Impact**: One rejected merge and another CI cycle; no content loss or direct main write.
 - **Recovery**: Merged origin/main into the task branch. The only conflict was the changelog append against an empty counterpart; retained the entire existing changelog exactly.
 - **Evidence**: https://github.com/RealMonoid/trading-research-framework/pull/68 and the task branch merge commit.
+
+### 2026-09-27T21:55:27.7699213+02:00 — ChatGPT 6 Astra
+
+- **Failure description**: An incomplete patch appended a stray list marker instead of the intended changelog entry.
+- **Location**: `AGENT_CHANGELOG.md`, end of file, during the TimesFM roadmap edit.
+- **Impact**: Temporary local documentation defect; no commit or upload contained it.
+- **Recovery**: Inspected the diff immediately and replaced the marker with the complete entry before validation and commit.
+- **Evidence**: The local diff showed a single added `-` after the 2026-09-09 entry; the corrected 2026-09-27 entry in `AGENT_CHANGELOG.md` records the completed scope.
